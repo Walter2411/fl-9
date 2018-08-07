@@ -1,10 +1,9 @@
 body {
   width: 1800px;
-  background: #ededed;
+  background: white;
 }
 
 header {
-  justify-content: baseline;
   display: flex;
   width: 1800px;
 }
@@ -22,7 +21,7 @@ header nav a {
   margin-left: 150px;
   padding: 20px;
   font-size: 50px;
-  color: #e85c0c;
+  color: #41bfd9;
   text-decoration: none;
 }
 header nav a:first-child {
@@ -34,14 +33,14 @@ header nav a:first-child {
 }
 .toolbar input[type=text] {
   padding: 20px;
-  color: #e85c0c;
+  color: #41bfd9;
   font-size: 25px;
-  border-color: #e85c0c;
+  border-color: #41bfd9;
   margin-bottom: 25px;
   margin-right: 300px;
 }
 .toolbar input[type=text]::placeholder {
-  color: #e85c0c;
+  color: #41bfd9;
 }
 
 #list {
@@ -52,7 +51,7 @@ header nav a:first-child {
 }
 #list article {
   height: auto;
-  background: white;
+  background: #ededed;
   margin: 25px;
 }
 #list article .post-description {
@@ -82,7 +81,7 @@ header nav a:first-child {
 #about h1 {
   text-align: end;
   font-size: 45px;
-  color: #e85c0c;
+  color: #41bfd9;
 }
 #about p {
   font-size: 24px;
@@ -99,23 +98,23 @@ header nav a:first-child {
 }
 #contact h1 {
   text-align: end;
-  color: #e85c0c;
+  color: #41bfd9;
   font-size: 45px;
   margin-bottom: -20px;
 }
 #contact h4 {
   text-align: end;
-  color: #e85c0c;
+  color: #41bfd9;
   font-size: 25px;
 }
 #contact input, #contact textarea {
   width: 1800px;
   margin: 20px 15px;
   padding: 15px;
-  background: #ededed;
+  background: white;
 }
 #contact button {
-  background: #e85c0c;
+  background: #41bfd9;
   float: right;
   padding: 15px 85px;
   color: white;

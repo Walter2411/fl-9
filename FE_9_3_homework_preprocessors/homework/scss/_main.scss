@@ -1,0 +1,130 @@
+body{
+    width: 1800px;
+    background: $bodyColor;
+}
+header{
+    justify-content: baseline;
+    display: flex;
+    width: 1800px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-end;
+        margin-bottom: 60px;
+        border-top: solid 1px grey;
+        border-bottom: 1px solid grey;
+        a{  
+            display: flex;
+            justify-content:space-between;
+            margin-left: 150px;
+            padding: 20px;
+            font-size:50px;
+            color: $navColor;
+            text-decoration: none;  
+        }
+        a:first-child{
+            margin-left: 0px;
+        }
+    }    
+}
+
+.toolbar{
+    float: right;
+    input[type='text']{
+        padding: 20px;
+        color: $btnSearch;
+        font-size: 25px;
+        border-color: $btnSearch;
+        margin-bottom: 25px;
+        margin-right: 300px;
+        
+        
+    &::placeholder { 
+        color: $btnSearch;
+       
+        }
+    }
+}
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1800px;
+    article{
+        height: auto;
+        background: $blocksbg;
+        margin: 25px;
+        
+        .post-description{
+            color:$dataColor;
+            border-bottom: 2px solid black;
+           
+        }
+        p{
+            padding-left: 25px;
+            font-size: 24px;
+            max-width: 550px;
+            color: $contentColor;
+        }
+        h3{
+            padding-left: 25px;
+            font-size: 30px;
+            color: $headingColor;
+        }
+        img{height: 450px;
+        padding: 15px;
+    align-self: center;}
+        
+    }
+}
+#about{
+    width: 1800px;
+    h1{
+        text-align: end;
+        font-size: 45px;
+        color: $btnColor;
+        
+       
+    }
+    p{
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 25px; 
+        margin: 30px;
+     
+    }
+    img{
+        width: 1800px;
+    }
+}
+
+#contact{
+    width: 1800px;
+    h1{
+        text-align: end;
+        color: $btnColor;
+        font-size: 45px;
+        margin-bottom: -20px;
+    }
+    h4{
+        text-align: end;
+        color: $btnColor;
+        font-size: 25px;
+        
+    }
+    input,textarea{
+        width: 1800px;
+        margin: 20px 15px;
+        padding: 15px;
+        background: $contactbg;
+        
+    }
+    button{
+        background: $btnColor;
+        float: right;
+        padding: 15px 85px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

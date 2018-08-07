@@ -1,0 +1,126 @@
+body {
+  width: 1800px;
+  background: #ededed;
+}
+
+header {
+  justify-content: baseline;
+  display: flex;
+  width: 1800px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin-bottom: 60px;
+  border-top: solid 1px grey;
+  border-bottom: 1px solid grey;
+}
+header nav a {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  padding: 20px;
+  font-size: 50px;
+  color: #e85c0c;
+  text-decoration: none;
+}
+header nav a:first-child {
+  margin-left: 0px;
+}
+
+.toolbar {
+  float: right;
+}
+.toolbar input[type=text] {
+  padding: 20px;
+  color: #e85c0c;
+  font-size: 25px;
+  border-color: #e85c0c;
+  margin-bottom: 25px;
+  margin-right: 300px;
+}
+.toolbar input[type=text]::placeholder {
+  color: #e85c0c;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1800px;
+}
+#list article {
+  height: auto;
+  background: white;
+  margin: 25px;
+}
+#list article .post-description {
+  color: #9cbaaa;
+  border-bottom: 2px solid black;
+}
+#list article p {
+  padding-left: 25px;
+  font-size: 24px;
+  max-width: 550px;
+  color: #617d8a;
+}
+#list article h3 {
+  padding-left: 25px;
+  font-size: 30px;
+  color: #1797a6;
+}
+#list article img {
+  height: 450px;
+  padding: 15px;
+  align-self: center;
+}
+
+#about {
+  width: 1800px;
+}
+#about h1 {
+  text-align: end;
+  font-size: 45px;
+  color: #e85c0c;
+}
+#about p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  margin: 30px;
+}
+#about img {
+  width: 1800px;
+}
+
+#contact {
+  width: 1800px;
+}
+#contact h1 {
+  text-align: end;
+  color: #e85c0c;
+  font-size: 45px;
+  margin-bottom: -20px;
+}
+#contact h4 {
+  text-align: end;
+  color: #e85c0c;
+  font-size: 25px;
+}
+#contact input, #contact textarea {
+  width: 1800px;
+  margin: 20px 15px;
+  padding: 15px;
+  background: #ededed;
+}
+#contact button {
+  background: #e85c0c;
+  float: right;
+  padding: 15px 85px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style2.css.map */

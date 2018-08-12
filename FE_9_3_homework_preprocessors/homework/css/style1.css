@@ -1,9 +1,9 @@
 body {
   width: 1800px;
+  background: white;
 }
 
 header {
-  justify-content: baseline;
   display: flex;
   width: 1800px;
 }
@@ -109,8 +109,9 @@ header nav a:first-child {
 }
 #contact input, #contact textarea {
   width: 1800px;
-  margin-bottom: 20px;
+  margin: 20px 15px;
   padding: 15px;
+  background: white;
 }
 #contact button {
   background: #41bfd9;

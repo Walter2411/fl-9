@@ -1,0 +1,271 @@
+html{
+    height: 100%;
+    min-width: 900px;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background: url(../img/apples.jpg) 100% 100% no-repeat ;
+    background-size: cover;
+    color: #FFF;
+    height: 50vmax;
+     
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.wrapper{
+    height: 20%;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.wrapper .smal_logo{
+    text-transform: uppercase;
+}
+.navigation{
+    width: 30vmax;
+    text-align: end;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+    height: 40%; 
+    
+    
+    
+}
+.logo h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+.logo span{
+    font-size: 90px; 
+    margin: 0 15px;
+}
+.header_btn .btn:hover{
+    background: rgba(52,54,56,0.9);
+    cursor: pointer;
+
+}
+.header_btn{
+    text-align: center;
+    height: 30%;
+}
+
+.header_btn .btn{
+    background:rgba(52,54,56,0.7) ;
+    color: #FFF;
+    padding: 1% 5%;
+    border: 2px solid #FFF;
+
+
+} 
+.aside{
+    margin: 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.aside div{
+    width:50%;
+}
+.aside_art h2{
+    font-weight: normal;
+    
+  }
+  .aside_art p{
+      margin: 2%;
+  }
+  .aside_art span{
+      font-weight: bold;
+  }
+section{
+    margin-top: 5%;
+    
+    padding-bottom: 5%;
+    background: #F3F3F3;
+}
+section h2{
+    font-weight: normal;
+    text-align: center;
+    padding-top:10%;
+    padding-bottom: 5%;
+}
+
+section span{
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+   margin: 0 5%;
+}
+.content_img{
+    position: relative;
+    margin: 1%;
+    width: 65%;
+}
+.content .content_img img{
+    width: 100%;
+}
+.content .content_img button{
+    position: absolute;
+    right: 0;
+    margin: 2%;
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding: 1%;
+    width: auto;  
+    background: rgba(52,54,56,0.7);  
+}
+.content .content_img p{
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+    color: #F0F0F0;
+    border: none;
+    background: none;
+}
+.content .content_img p span{
+    font-weight: bold;
+    color: #FFF;
+}
+
+.content .content_desc{
+    width: 33%;
+    align-self: center;
+     
+   }
+.subs_form{
+    display: flex;
+    justify-content:space-around;
+    background: #fff;
+    margin:0 5%;
+    padding: 3% 0;
+    
+    
+}
+.subs_form h4{
+    padding: 0;
+    margin-left: 2%;
+    align-self: center;
+    font-weight: normal;
+    
+}
+.subs_form .input_form{
+    width: 70%;
+}
+.subs_form .input_form input[type='email']{
+    position: relative;
+    background: #E8E8E8;   
+    width: 80%;
+    height: 50px;
+    padding-left: 2%;
+    border: solid 1px #000;
+
+}
+.subs_form .input_form input[type='email']::placeholder{
+    color: #000;
+}
+.subs_form .input_form input[type='button']{
+    position: absolute;
+    border: 1px solid #000;
+    background:#343638;
+    color: #fff;
+    height: 52px;
+    padding: 1%;
+    
+}
+.footer_wrap{
+    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #B7C8D9;
+    margin: 5%;
+    margin-bottom: 0;
+    padding-bottom: 10%;
+  
+    
+}
+.footer_container{
+    width: 25%;
+    margin: 3%;
+}
+.footer_container p{
+    color: #9E9E9E;
+    padding-top: 10%;
+}
+.footer_container .time{
+    color: #E8E8E8;
+    font-style: normal;
+}
+.footer_wrap div:nth-child(2){
+    font-style: italic;
+}
+.footer_container .input_form{
+    padding-top: 2%;
+}
+.footer_container .input_form input[type='email']{
+    position: relative;
+    background: #E8E8E8;   
+    width: 80%;
+    padding: 2%;
+    border: solid 1px #000;
+
+}
+.footer_container .input_form input[type='email']::placeholder{
+    color: #000;
+    font-size: 12px;
+}
+.footer_container .input_form input[type='button']{
+    position: absolute;
+    border: 1px solid #000;
+    background:#343638;
+    color: #fff; 
+    height: auto;
+    padding: 0.35%;
+} 
+
+.footer_bar{
+    margin: 1% 5%;
+}
+.footer_bar p{
+    display: inline-block;
+    color: #B7C8D9;
+}
+footer ul{
+    text-align: end;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    
+    
+}
+footer ul li {
+    display: inline-block;
+    padding-left: 5%;
+}
+footer ul li a{
+    color: #000;
+}
+
+
+
+
+
+

@@ -15,7 +15,7 @@ let half_perimetr = perimeter/2;
 let square= Math.sqrt(half_perimetr*(half_perimetr-a_length)*(half_perimetr-b_length)*(half_perimetr-c_length));
 
 
-if (a_length<=0){
+if (Number(a_length)<=0||Number(b_length)<=0||Number(angle)<=0){
    
     result='Invalid data';
 }else{

@@ -4,7 +4,7 @@ let Saved = MoneyNumber/100*DiscountNumber;
 let PriceWithDiscount = MoneyNumber-Saved;
 let Result;
 
-if (MoneyNumber<0){
+if (Number(MoneyNumber)<0||Number(DiscountNumber<0)){
     Result = 'Invalid data';
 }else{
     Result='price without discount: '+ MoneyNumber + '\n' +

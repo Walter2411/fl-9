@@ -43,10 +43,7 @@ if(question){
                     startPrice = startPrice*3;
                     totalPrize = possiblePrice;
                     possiblePrice=Math.floor(startPrice / Math.pow(2, 3 - i));
-                    
-                   
-                    
-                
+                                                                          
                  }else{
                     alert('Thank you for a game. Your prize is: ' + possiblePrice + '$');
                 }

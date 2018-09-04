@@ -1,0 +1,46 @@
+/* Your styles goes here */
+.toDoCatList{
+    border: solid 2px black;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.body_title{
+    text-align: center;
+    font-weight: normal;
+}
+.input_form{
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.body_input{
+    width: 90%;
+    margin: 0 2%;
+    border:solid 1px black;
+}
+.item_list{
+    width: 90%;
+    font-size: 24px;
+}
+li{
+    list-style: none;
+    
+}
+#delete_icon{
+    float: right;
+}
+#checkbox_icon{
+    margin: 0 2%;
+}
+img{
+   height: 15%;
+   position: absolute;
+   bottom: 30px;
+   left:45%;
+}

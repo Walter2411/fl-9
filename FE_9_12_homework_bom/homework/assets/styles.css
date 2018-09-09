@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#add_btn{
+    width: 10%;
+    padding: 0.5%;
+    border-radius: 8px;
+    align-self: center;
+}
+#list_item{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+   
+h1{
+    align-self: center;
+}
+
+#add_page{
+    display: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 48px;
+    
+}
+
+li img{
+    margin: 0 5%;
+}
